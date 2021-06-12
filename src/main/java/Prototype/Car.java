@@ -10,7 +10,7 @@ public abstract class Car {
 
     //конструктор прототипа
     public Car(Car target) {
-        if (target != null){
+        if (target != null) {
             this.engine = target.engine;
             this.color = target.color;
             this.type = target.type;
