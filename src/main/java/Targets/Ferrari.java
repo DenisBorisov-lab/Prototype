@@ -5,12 +5,13 @@ import Prototype.Car;
 public class Ferrari extends Car {
     public int wheelRadius;
 
-    public Ferrari(){
+    public Ferrari() {
 
     }
-    public Ferrari(Ferrari target){
+
+    public Ferrari(Ferrari target) {
         super(target);
-        if (target != null){
+        if (target != null) {
             this.wheelRadius = target.wheelRadius;
         }
     }
